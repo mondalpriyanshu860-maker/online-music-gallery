@@ -1,0 +1,6 @@
+{
+  "name": "Online Music Gallery",
+  "description": "A feature-rich, Spotify + Apple Music inspired full-stack streaming application with a responsive sleek UI, advanced music player, playlists, custom equalizer/visualizer, AI recommendations, social activity, and admin catalog dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

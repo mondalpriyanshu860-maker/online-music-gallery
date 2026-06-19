@@ -1,0 +1,271 @@
+{
+  "users": {},
+  "artists": {
+    "art-1": {
+      "id": "art-1",
+      "name": "Vector Vandal",
+      "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=200",
+      "biography": "Slaying grid lines and synthesis in the heart of Neon Tokyo since 2088.",
+      "followers": 124500,
+      "isVerified": true
+    },
+    "art-2": {
+      "id": "art-2",
+      "name": "Cosmic Slumber",
+      "image": "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?auto=format&fit=crop&q=80&w=200",
+      "biography": "Eno-inspired ambient architecture using vintage reel-to-reel and granular samplers.",
+      "followers": 84300,
+      "isVerified": true
+    },
+    "art-3": {
+      "id": "art-3",
+      "name": "Glitch Horizon",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=200",
+      "biography": "A collaborative group merging physical hardware circuit bending with mathematical jazz.",
+      "followers": 53200,
+      "isVerified": false
+    },
+    "art-4": {
+      "id": "art-4",
+      "name": "Luna Lounge",
+      "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=200",
+      "biography": "Late night lofi grooves crafted under the glow of the lunar phase.",
+      "followers": 210000,
+      "isVerified": true
+    }
+  },
+  "albums": {
+    "alb-1": {
+      "id": "alb-1",
+      "title": "Grid Runner",
+      "cover_image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=400",
+      "artistId": "art-1",
+      "artistName": "Vector Vandal",
+      "release_date": "2026-01-01"
+    },
+    "alb-2": {
+      "id": "alb-2",
+      "title": "Gravity Well",
+      "cover_image": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&q=80&w=400",
+      "artistId": "art-2",
+      "artistName": "Cosmic Slumber",
+      "release_date": "2025-06-12"
+    },
+    "alb-3": {
+      "id": "alb-3",
+      "title": "Binary Eclipse",
+      "cover_image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&q=80&w=400",
+      "artistId": "art-3",
+      "artistName": "Glitch Horizon",
+      "release_date": "2026-03-24"
+    },
+    "alb-4": {
+      "id": "alb-4",
+      "title": "Midnight Tea",
+      "cover_image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&q=80&w=400",
+      "artistId": "art-4",
+      "artistName": "Luna Lounge",
+      "release_date": "2026-05-18"
+    }
+  },
+  "tracks": {
+    "track-1": {
+      "id": "track-1",
+      "title": "Synthwave Genesis",
+      "artist": "Vector Vandal",
+      "artistId": "art-1",
+      "album": "Grid Runner",
+      "albumId": "alb-1",
+      "genre": "Synthwave",
+      "audio_file": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "cover_image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=400",
+      "duration": 372,
+      "plays": 52403,
+      "likes": 4210,
+      "upload_date": "2026-01-01"
+    },
+    "track-2": {
+      "id": "track-2",
+      "title": "Neon Drift",
+      "artist": "Vector Vandal",
+      "artistId": "art-1",
+      "album": "Grid Runner",
+      "albumId": "alb-1",
+      "genre": "Synthwave",
+      "audio_file": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "cover_image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&q=80&w=400",
+      "duration": 423,
+      "plays": 38240,
+      "likes": 3102,
+      "upload_date": "2026-01-15"
+    },
+    "track-3": {
+      "id": "track-3",
+      "title": "Event Horizon",
+      "artist": "Cosmic Slumber",
+      "artistId": "art-2",
+      "album": "Gravity Well",
+      "albumId": "alb-2",
+      "genre": "Ambient",
+      "audio_file": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "cover_image": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&q=80&w=400",
+      "duration": 344,
+      "plays": 124502,
+      "likes": 11090,
+      "upload_date": "2025-06-12"
+    },
+    "track-4": {
+      "id": "track-4",
+      "title": "Solar Flare",
+      "artist": "Cosmic Slumber",
+      "artistId": "art-2",
+      "album": "Gravity Well",
+      "albumId": "alb-2",
+      "genre": "Ambient",
+      "audio_file": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "cover_image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&q=80&w=400",
+      "duration": 302,
+      "plays": 91402,
+      "likes": 7421,
+      "upload_date": "2025-07-01"
+    },
+    "track-5": {
+      "id": "track-5",
+      "title": "Digital Rain",
+      "artist": "Glitch Horizon",
+      "artistId": "art-3",
+      "album": "Binary Eclipse",
+      "albumId": "alb-3",
+      "genre": "Cyberpunk",
+      "audio_file": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "cover_image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=400",
+      "duration": 362,
+      "plays": 18230,
+      "likes": 1204,
+      "upload_date": "2026-03-24"
+    },
+    "track-6": {
+      "id": "track-6",
+      "title": "Subroutine 0xFF",
+      "artist": "Glitch Horizon",
+      "artistId": "art-3",
+      "album": "Binary Eclipse",
+      "albumId": "alb-3",
+      "genre": "Cyberpunk",
+      "audio_file": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "cover_image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=400",
+      "duration": 532,
+      "plays": 14210,
+      "likes": 980,
+      "upload_date": "2026-04-02"
+    },
+    "track-7": {
+      "id": "track-7",
+      "title": "Chamber Chai",
+      "artist": "Luna Lounge",
+      "artistId": "art-4",
+      "album": "Midnight Tea",
+      "albumId": "alb-4",
+      "genre": "Lofi Hip Hop",
+      "audio_file": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "cover_image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&q=80&w=400",
+      "duration": 412,
+      "plays": 284300,
+      "likes": 24500,
+      "upload_date": "2026-05-18"
+    },
+    "track-8": {
+      "id": "track-8",
+      "title": "Sleepy Raindrops",
+      "artist": "Luna Lounge",
+      "artistId": "art-4",
+      "album": "Midnight Tea",
+      "albumId": "alb-4",
+      "genre": "Lofi Hip Hop",
+      "audio_file": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "cover_image": "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?auto=format&fit=crop&q=80&w=400",
+      "duration": 318,
+      "plays": 341200,
+      "likes": 38902,
+      "upload_date": "2026-05-25"
+    },
+    "track-9": {
+      "id": "track-9",
+      "title": "Techno Grid Runner",
+      "artist": "Vector Vandal",
+      "artistId": "art-1",
+      "album": "Grid Runner",
+      "albumId": "alb-1",
+      "genre": "Techno",
+      "audio_file": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "cover_image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=400",
+      "duration": 458,
+      "plays": 43900,
+      "likes": 3824,
+      "upload_date": "2026-06-01"
+    }
+  },
+  "playlists": {
+    "plat-1": {
+      "id": "plat-1",
+      "title": "Late Night Coding",
+      "description": "High performance loops and ambient grids for maximum focus.",
+      "cover_image": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&q=80&w=300",
+      "ownerId": "system",
+      "ownerName": "Editor's Choice",
+      "tracks": [
+        "track-1",
+        "track-3",
+        "track-5",
+        "track-7",
+        "track-9"
+      ],
+      "collaborators": [],
+      "followers": 8431,
+      "isPublic": true
+    },
+    "plat-2": {
+      "id": "plat-2",
+      "title": "Sunset Dreams",
+      "description": "Soothing synths and slow tempo lofi under the fading skies.",
+      "cover_image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=300",
+      "ownerId": "system",
+      "ownerName": "Chill Station",
+      "tracks": [
+        "track-2",
+        "track-4",
+        "track-6",
+        "track-8"
+      ],
+      "collaborators": [],
+      "followers": 12044,
+      "isPublic": true
+    }
+  },
+  "comments": [
+    {
+      "id": "comm-1",
+      "userId": "system",
+      "username": "NeonNostalgia",
+      "trackId": "track-1",
+      "comment": "This synth intro literally teleports my soul into a custom cyber coupe.",
+      "created_at": "2026-06-18T12:00:00.000Z"
+    },
+    {
+      "id": "comm-2",
+      "userId": "system",
+      "username": "ZenDev",
+      "trackId": "track-3",
+      "comment": "Perfect coding background noise. No sudden spikes, just sleek, clean waves.",
+      "created_at": "2026-06-19T02:30:00.000Z"
+    }
+  ],
+  "likes": [],
+  "history": [],
+  "notifications": {},
+  "coupons": {
+    "MUSICVIP": 50,
+    "NEON20": 20,
+    "FREEPASS": 100
+  }
+}
